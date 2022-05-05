@@ -1,0 +1,251 @@
+*{margin: 0;}
+
+body{background-color: black;}
+
+/*header styling */
+
+
+
+.header{background-color: #24262b;height: 70px;margin-top: -6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+
+
+
+.log{
+    border-radius: 30px;
+   
+    cursor: pointer;
+    
+}
+
+.header h3{
+    padding-top: 20px;
+
+    color: #ffffff;
+    float: right;
+padding-right: 20px;
+}
+
+.main{
+
+  
+
+    position: relative;
+
+    display: inline-block;
+
+    padding-left: 20px;
+
+
+    margin-right: 40px;
+
+}
+
+.menu{
+    padding-top: 20px;
+    
+    background-color: transparent;
+   
+    color: #ffffff;
+
+    border: 1px solid #24262b;
+
+    cursor: pointer;
+
+
+}
+.dropdown{
+    display: none; 
+   
+    position: absolute;
+   
+    background-image: url(menu2.webp);
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    background-size: cover;
+
+    background-position: center;
+   
+    width: 1300px;
+   
+    height: 435px;
+   
+    z-index: 99;
+   
+    
+
+    border: 1px solid black;
+
+   
+
+}
+
+.dropdown a{
+    
+   
+    display: inline-block; 
+    
+    color: gray; 
+
+    font-size:larger;
+    
+    margin: 20px;
+}
+
+.dropdown:hover{
+    
+    background-image: url(menu.webp);
+
+}
+.dropdown a:hover{
+    
+    color: rgb(255, 255, 255);
+
+    transition: 0.5s;
+
+}
+
+
+.main:hover .dropdown{
+    
+    transition: 1s;
+    
+    display: block;left: 1px;
+
+
+}
+/*contact page */
+.fiximg{
+    width: 100%;
+    height: 300px;
+
+
+
+
+
+    background-image: url(bug2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 30px;
+
+
+}
+.start p{margin-top: 30px;
+    color: #ffffff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-us{display: flex;
+justify-content: space-around;
+flex-direction: row;
+
+}
+
+.start h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+.phone h3{color: #a2a2a2;}
+.phone h2{color: #ffffff;}
+
+.email h3{color: #a2a2a2;}
+.email h2{color: #ffffff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer styling */
+.footer{
+    background-color: #24262b;
+    
+    margin-top: 20px;
+}
+
+
+.row{display: flex;
+    flex-wrap: wrap;
+    
+}
+.footer-col ul li a{display: block;
+    color: #a2a2a2;
+    font-weight: 300;
+    margin: 0 15px;
+    line-height: 48px;
+
+    font-size: 10px;
+
+}
+.footer-col h4{
+    text-align: center;
+    color: #a2a2a2;
+    font-weight: 300;
+    margin: 0 15px;
+    line-height: 48px;
+    font-size: 20px;
+
+
+
+}
+.footer-col .social-link a{
+    text-align: center;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+    transition: all 0.5s ease;
+
+    }
+    .footer-col .social-link{
+        text-align: center;
+    
+    }
+    .footer-col .social-link a:hover{
+        color: #24262b;
+        background-color: #24262b;
+
+        background-color: #ffffff;
+    }
